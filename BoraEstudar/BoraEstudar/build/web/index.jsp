@@ -3,10 +3,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet">
         <link href="css/fonts.css" rel="stylesheet">
         <link href="css/media.css" rel="stylesheet">
-        <title>Landing Page</title>
+        <title>BoraEstudar!</title>
     </head>
     <body>
         <header>
@@ -31,7 +31,7 @@
                 <form>
                     <input type="text" placeholder="Nome">
                     <input type="email" placeholder="Email">
-                    <input type="submit" value="Entrar >">
+                    <input type="submit" value="Entrar">
                 </form>
             </aside>
             
