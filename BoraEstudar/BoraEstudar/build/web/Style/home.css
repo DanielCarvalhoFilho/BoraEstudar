@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppinsregular;
+}
+
+body{
+    background: #fff;
+}
+
+.sidebar{
+   position: fixed;
+   width: 250px;
+   height: 100%;
+   padding-top: 30px;
+   left: 0;
+   background: #fff;
+   transition: 0.5s;
+   transition-property: left;
+   border-right: 1px solid gray;
+}
+
+.sidebar .image{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.sidebar h2{
+    color: black;
+    margin-top: 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.sidebar a{
+    color: black;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.sidebar a:hover{
+    background: rgba(0,0,0, .3);
+    text-decoration: underline;
+}
+
+.sidebar ion-icon{
+    padding-right: 40px;
+}
+
+
+.content{
+    background: url(../Images/teste.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    transition: 0.5s;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+#user-exit{
+    color: #990000; 
+    margin-top: 20px;
+}
+
+#painel{
+    margin-top: 50px;
+}
+
+
+
+/*VIDEO TESTE*/
+
+/*
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppinsregular;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    background: #999999;
+}
+
+.navbar-logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+
+.navbar-menu{
+    list-style: none;
+    display: flex;
+}
+
+.navbar-item{
+    margin-left: 30px;
+    position: relative;
+}
+
+.navbar-item a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.submenu{
+    border-radius: 5px;
+    position: absolute;
+    top: calc(100% + 10px);
+    width: max-content;
+    display: flex;
+    overflow: hidden;
+    display: none; 
+}
+
+.submenu.show{
+    display: block;
+}
+
+.submenu-itens{
+    display: list;
+    width: 140px;;
+    background: whitesmoke;
+    color: black;
+    line-height: 30px;
+    font-size: 13px;
+    border-bottom: 4px solid black;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+hr{
+    width: 130px;
+}
+
+#user{
+    font-size: 13px;
+}
+
+*/
+/*FIM VIDEO TESTE*/
+

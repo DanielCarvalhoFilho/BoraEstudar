@@ -3,9 +3,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="css/index.css" rel="stylesheet">
-        <link href="css/fonts.css" rel="stylesheet">
-        <link href="css/media.css" rel="stylesheet">
+        <link href="estilos/index.css" rel="stylesheet">
+        <link href="estilos/fonts.css" rel="stylesheet">
+        <link href="estilos/media.css" rel="stylesheet">
+        <script defer src="script/index.js"></script>
         <title>BoraEstudar!</title>
     </head>
     <body>
@@ -23,21 +24,54 @@
             </ul>
         </header>
 
-        <main>
+        <div class="main">
             <aside>
-                <h2><span>Inscreva-se agora</span></h2>
-                <h2>na Newslatter</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <form>
-                    <input type="text" placeholder="Nome">
-                    <input type="email" placeholder="Email">
-                    <input type="submit" value="Entrar">
-                </form>
+                <h2>Aprenda agora no</h2>
+                <h2 align="center"><span>BoraEstudar!</span></h2>
+                <p align="center">Nosso site é alimentado pela força de nossos alunos, instrutores e a internet que cria oportunidades infinitas. Buscamos incentivar a melhoria no aprendizado, despertar interese e curiosidade escolar, acabando com muitas barreiras de sala de aula. <span id="frase">Sempre pensando em Você!</span></p>
             </aside>
-            
+
             <article>
-                <img src="Images/77d0a7c454e658833800528e748edbe9.png" alt="mulher-roxa" >
+                <img src="Images/BoraEstudar.png" alt="BoraEstudar">
             </article>
-        </main>
+        </div>
+
+
+
+        <div class="div-form">
+            
+            <div class="container" id="container">
+     
+                <div class="form-container entrar-container">
+                    
+                    <form action="#">
+                        <h1>Login</h1>
+                        <input type="email" placeholder="Email" />
+                        <input type="password" placeholder="Senha" />
+                        <button>ENTRAR</button>
+                        <a href="index.jsp" id="back">Voltar</a>
+                    </form>
+                    
+                </div>
+
+                <div class="overlay-container">
+                    
+                    <div class="overlay">
+                        
+                        <div class="overlay-panel overlay-right">                      
+                            <h1>Ainda não Possui uma conta?</h1>
+                            <p>Clique no botão abaixo para criar já a sua!</p>
+                            <button class="ghost" id="signUp">CRIAR CONTA</button>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
