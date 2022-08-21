@@ -1,5 +1,5 @@
 body{
-    background-color: lightgray;
+    background-color: #f6f5f7;
     color: black; 
     font-family: poppinsregular;
     max-width: 100%;
@@ -34,20 +34,21 @@ a{
 }
 
 a:hover{
-    color: rgb(132, 14, 201);
+    color: #0f8eff;
     transition: 0.3s all;
     font-weight: bold; 
 }
 
 #inscreva-se-btn{
-    border: 2px solid rgb(132, 14, 201);
+    border: 2px solid #0f8eff;
     padding: 10px;
     border-radius: 15px;
 }
 
 #inscreva-se-btn:hover{
-    background-color: rgb(132, 14, 201);
+    background-color: #0f8eff;
     color: white;
+    cursor: pointer;
 }
 
 h1{
@@ -69,7 +70,7 @@ h2{
 }
 
 span{
-    color: rgb(132, 14, 201);
+    color: #0f8eff;
 }
 
 p{
@@ -108,9 +109,20 @@ button {
         margin-top: 20px;
 }
 
+button:hover {
+	color: black;
+        transition: 0.3s;
+}
+
 .ghost {
 	background-color: transparent;
         border: 1px solid #FFFFFF;
+}
+
+.ghost:hover {
+	background-color: white;
+        color: rgb(132, 14, 201);
+        transition: 0.3s;
 }
 
 form {
@@ -157,7 +169,6 @@ input {
 	z-index: 2;
 }
 
-
 .overlay-container {
 	position: absolute;
 	top: 0;
@@ -166,7 +177,6 @@ input {
 	height: 100%;
 	overflow: hidden;
 }
-
 
 .overlay {
 	background: rgb(132, 14, 201);
