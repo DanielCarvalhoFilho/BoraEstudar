@@ -58,8 +58,8 @@ h1{
 .main{
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
-    margin-left: 170px;
+    margin-top: 7%;
+    margin-left: 15%;
     position: absolute;
 }
 
@@ -91,8 +91,8 @@ img{
 
 
 .div-form{
-    margin-left: 250px;
-    margin-top: -10px;
+    margin-left: 25%;
+    margin-top: -1%;
     display: none;
 }
 
